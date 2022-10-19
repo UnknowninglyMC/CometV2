@@ -10,7 +10,7 @@ frm.Position = UDim2.new(0.8998,0,0.0549,0)
 frm.BackgroundTransparency = 1
 frm.BorderSizePixel = 0
 frm.Parent = ui
---Instance.new("UIListLayout",frm)
+--Instance.new("UIListLayout",frm)--
 local layout = Instance.new("UIGridLayout")
 layout.CellPadding = UDim2.new(0,0,0.0001,0)
 layout.SortOrder = Enum.SortOrder.LayoutOrder
